@@ -1,0 +1,33 @@
+<div id="TaskFormState">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Состояние</th>
+            <th>Исполнитель</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>01.12.2016</td>
+            <td>Ожидание</td>
+            <td>Я</td>
+        </tr>
+        <tr>
+            <td>01.12.2016</td>
+            <td>Ожидание</td>
+            <td>Петров</td>
+        </tr>
+        <tr>
+            <td>01.12.2016</td>
+            <td>Ожидание</td>
+            <td>Я</td>
+        </tr>
+        <tr>
+            <td>01.12.2016</td>
+            <td>Выполняется</td>
+            <td>Сидоров</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

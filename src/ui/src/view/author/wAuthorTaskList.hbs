@@ -1,0 +1,65 @@
+<div id="AuthorTaskList">
+    <div>
+        <button id="NewTaskButton" class="btn btn-success">Новая задача</button>
+    </div>
+    <hr>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Задача</th>
+            <th>Дата</th>
+            <th>Исполнитель</th>
+            <th>Состояние</th>
+            <th>Действия</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a href="#" data-id="task1" data-action="ShowTask">Подготовить мастер-класс</a></td>
+            <td>01.12.2016</td>
+            <td>я</td>
+            <td>выполняется</td>
+            <td class="clearfix">
+                <button class="btn btn-primary pull-left" data-action="PauseTaskButton" data-id="task1">Приостановить</button>
+                <button class="btn btn-danger pull-right" data-action="CloseTaskButton" data-id="task1">Закрыть</button>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" data-id="task2" data-action="ShowTask">Подготовить мастер-класс</a></td>
+            <td>01.12.2016</td>
+            <td>я</td>
+            <td>ожидание</td>
+            <td class="clearfix">
+                <button class="btn btn-success pull-left" data-action="PlayTaskButton" data-id="task2">Выполнить</button>
+                <button class="btn btn-danger pull-right" data-action="CloseTaskButton" data-id="task2">Закрыть</button>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" data-id="task3" data-action="ShowTask">Провести мастер-класс</a></td>
+            <td>01.12.2016</td>
+            <td>Петров В.В.</td>
+            <td>выполняется</td>
+            <td class="clearfix">
+                <button class="btn btn-warning pull-right" data-action="TakeTaskButton" data-id="task3">Забрать</button>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" data-id="task3" data-action="ShowTask">Провести мастер-класс</a></td>
+            <td>01.12.2016</td>
+            <td>Петров В.В.</td>
+            <td>ожидание</td>
+            <td class="clearfix">
+                <button class="btn btn-warning pull-right" data-action="TakeTaskButton" data-id="task4">Забрать</button>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#" data-id="task5" data-action="ShowTask">Подготовить мастер-класс</a></td>
+            <td>01.12.2016</td>
+            <td></td>
+            <td>закрыта</td>
+            <td>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
